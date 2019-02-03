@@ -1,5 +1,10 @@
 __pycache__
 checkpoint_*
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+libsampling.so
 
 data
 snapshot
