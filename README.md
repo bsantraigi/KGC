@@ -13,7 +13,7 @@
 - Then run any command as given below
 
 ## FIX: For error during importing libsampling.so
-- Go to ndkgc/ops/__sampling/ and remove the cmake files
+- Go to ndkgc/ops/__sampling/ and remove the old cmake files
 - Run `cmake .`
 - Open the generated CMakeCache.txt file
 - Update the following line
