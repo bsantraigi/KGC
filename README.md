@@ -1,5 +1,26 @@
 # KGC
 
+## Setting up environment
+- Create a new conda env
+- source activate new_env
+- Install CUDA 8 and CUDNN 6
+
+  `conda install cudatoolkit=8`
+  
+  `conda install cudnn=6`
+- Install `tensorflow 1.3`
+- Install the other requirements 
+- Then run any command as given below
+
+## FIX: For error during importing libsampling.so
+- Go to ndkgc/ops/__sampling/ and remove the cmake files
+- Run `cmake .`
+- Open the generated CMakeCache.txt file
+- Update the following line
+  - `CMAKE_CXX_FLAGS:STRING=-D_GLIBCXX_USE_CXX11_ABI=0`
+- Then run `cmake --build .`
+- Then try running 
+
 ## Run the code
 
 ### Compile C++ Operator
