@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -D_GLIBCXX_USE_CXX11_ABI=0 -shared -fPIC -O2  -shared -Wl,-soname,libsampling.so -o libsampling.so CMakeFiles/sampling.dir/pairwise_sampler.cpp.o 

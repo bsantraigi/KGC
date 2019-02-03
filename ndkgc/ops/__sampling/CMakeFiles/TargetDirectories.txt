@@ -1,3 +1,0 @@
-/blackhole/Documents/Projects/Conmask/ndkgc/ops/__sampling/CMakeFiles/rebuild_cache.dir
-/blackhole/Documents/Projects/Conmask/ndkgc/ops/__sampling/CMakeFiles/sampling.dir
-/blackhole/Documents/Projects/Conmask/ndkgc/ops/__sampling/CMakeFiles/edit_cache.dir
