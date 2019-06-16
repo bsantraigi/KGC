@@ -2,7 +2,6 @@
 
 ## Setting up environment
 - Create a new conda env with python=3.6.x
-- `pip install intbitset` : python 3.6.x is required for intbitset to install properly.
 - source activate new_env
 - Install CUDA 8 and CUDNN 6
 
@@ -11,6 +10,7 @@
   `conda install cudnn=6`
 - Install `tensorflow 1.3`
 - Install the other requirements 
+- `pip install intbitset` : python 3.6.x is required for intbitset to install properly.
 - Then run any command as given below
 
 ## FIX: For error during importing libsampling.so
