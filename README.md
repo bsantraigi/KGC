@@ -1,7 +1,8 @@
 # KGC
 
 ## Setting up environment
-- Create a new conda env
+- Create a new conda env with python=3.6.x
+- `pip install intbitset` : python 3.6.x is required for intbitset to install properly.
 - source activate new_env
 - Install CUDA 8 and CUDNN 6
 
