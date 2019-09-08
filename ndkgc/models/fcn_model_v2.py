@@ -537,7 +537,7 @@ def main(_):
     CHECKPOINT_DIR = sys.argv[1]
     dataset_dir = sys.argv[2]
 
-    is_train = FLAGS.eval
+    is_train = not FLAGS.eval
 
     model = FCNModel(entity_file=os.path.join(dataset_dir, 'entities.txt'),
                      relation_file=os.path.join(dataset_dir, 'relations.txt'),
